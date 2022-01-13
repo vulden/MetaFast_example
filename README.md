@@ -19,6 +19,6 @@ The image showed five distinct clusters (saved in `workDir/matrices/dist_matrix_
 
 **Taxonomic clustering**
 
-For comparison, files with taxonomic data ```taxonomic_profile_<id>.txt``` downloaded for each group by running [script](example/download_taxonomy.sh). Then dissimilarity matrix using Bray-Curtis metric was evaluated. Next, with ```seaborn.clustermap``` an analogous image file with heatmap and dendrogram was produced: 
+For comparison, files with taxonomic data ```taxonomic_profile_<id>.txt``` downloaded for each group by running [script](example/download_taxonomy.sh). Then dissimilarity matrix using Bray-Curtis metric was evaluated, and with ```seaborn.clustermap``` an analogous image file with heatmap and dendrogram was produced: 
 ![JnNXaKIcaJ4 (1)](https://user-images.githubusercontent.com/52621625/146163403-6821e932-a9b6-4bd2-b47a-2907dfc891a0.png)
-Here you can see a Python 3 [script](example/tax_clust.sh).
+Here you can see a Python 3 [script](example/tax_clust.py).
