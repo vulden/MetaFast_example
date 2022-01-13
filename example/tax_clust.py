@@ -46,5 +46,5 @@ for i in range(X.shape[0]):
       
 rcols= ["Airways_4" ,"Airways_7" ,"Airways_8" ,"Airways_9" ,"Airways_10" ,"Airways_11" , "Airways_12" ,"Airways_23" ,"Airways_26" ,"Airways_27","Skin_1" ,"Skin_13" ,"Skin_14" ,"Skin_15" ,"Skin_16" ,"Skin_17" ,"Skin_18" ,"Skin_19" ,"Skin_20" ,"Skin_28","Oral_6" ,"Oral_7" ,"Oral_8" ,"Oral_13" ,"Oral_14" ,"Oral_15" ,"Oral_16" ,"Oral_17" ,"Oral_18" ,"Oral_19", "Gastro_0" ,"Gastro_1" ,"Gastro_2" ,"Gastro_3" ,"Gastro_4" ,"Gastro_5" ,"Gastro_9" ,"Gastro_10" ,"Gastro_11" ,"Gastro_12" , "Uro_0" ,"Uro_2" ,"Uro_3" ,"Uro_5" ,"Uro_6" ,"Uro_21" ,"Uro_22" ,"Uro_24" ,"Uro_25"]  
 dist_df = pd.DataFrame(result,index=rcols,columns=rcols)
-clustermap(dist_matrix, method ='ward', figsize=(16,16))
+clustermap(dist_df, method ='ward', figsize=(16,16))
 
