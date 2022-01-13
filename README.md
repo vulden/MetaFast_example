@@ -3,7 +3,7 @@
 
 **Step 1:**
 
-When you execute [download script](example/download.sh) you will get five folders (Airways, Skin, Oral, Gastro, Uro) with metagenome files, each inside it\`s own folder `2017.12.04_18.56.22_sample_<id>`. All files have the same name `anonymous_reads.fq.gz`, so in order to receive more visual image, run [mv.sh](example/mv.sh) for renaming files.
+Execute [download script](example/download.sh). You will get five folders (Airways, Skin, Oral, Gastro, Uro) with metagenome files, each inside it\`s own folder `2017.12.04_18.56.22_sample_<id>`. All files have the same name `anonymous_reads.fq.gz`, so in order to receive more visual image, run [this script](example/mv.sh) for renaming files.
 
 **Step 2:**
 
