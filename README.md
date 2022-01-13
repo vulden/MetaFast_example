@@ -1,5 +1,9 @@
 ## Example ##  
 [2nd CAMI Toy Human Microbiome Project Dataset](https://data.cami-challenge.org/participate) has been chosen as a testing dataset. It consists of 49 samples of simulated metagenome data from five different body sites of the human host (10 gastrointestinal tract, 10 oral cavity, 10 airways, 10 skin, 9 urogenital tract). Follow instructions:
+**Step 0:**
+Download dependencies: 
+  1. CamiClient (`curl -O https://data.cami-challenge.org/camiClient.jar`).
+  2. Python 3 and packages numpy, pandas, scipy and seaborn.
 
 **Step 1:**
 
