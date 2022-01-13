@@ -1,4 +1,5 @@
 #!/bin/bash
+curl -O https://data.cami-challenge.org/camiClient.jar
 mkdir Airways Gastro Skin Oral Uro
 java -jar ./camiClient.jar -d https://openstack.cebitec.uni-bielefeld.de:8080/swift/v1/CAMI_Airways ./Airways -p fq.gz
 java -jar ./camiClient.jar -d https://openstack.cebitec.uni-bielefeld.de:8080/swift/v1/CAMI_Oral ./Oral -p fq.gz
